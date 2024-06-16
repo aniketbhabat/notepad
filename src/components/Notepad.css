@@ -1,0 +1,35 @@
+/* src/components/Notepad.css */
+.container {
+    display: flex;
+  }
+  
+  .left {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .right {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notes-container {
+    margin-top: 20px;
+  }
+  
+  .note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  

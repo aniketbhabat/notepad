@@ -1,0 +1,14 @@
+/* src/components/Note.css */
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .note p {
+    margin: 0;
+  }
+  
